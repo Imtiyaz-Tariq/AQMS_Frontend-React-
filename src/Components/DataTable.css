@@ -1,0 +1,58 @@
+table,
+th,
+td {
+  border: 1px solid black;
+  border-color: blueviolet;
+  color: aqua;
+  justify-items: center;
+}
+
+.center {
+  text-align: center;
+  width: 280px;
+  margin: auto;
+  background-color: rgb(149, 37, 240);
+  font-size: large;
+  padding: 5px;
+  text-shadow: 0 0 4px #00ffaa;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.outer_div {
+  width: 400px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  min-height: 550px;
+  border-radius: 10px;
+  border-width: 15px;
+  margin: auto;
+  margin-top: 5px;
+  background-color: black;
+}
+.outer_div2 {
+  width: 400px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  border-width: 15px;
+  margin: auto;
+  margin-top: 5px;
+  background-color: rgb(149, 37, 240);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  
+  padding: 10px;
+}
+
+.grid-item {
+	margin:auto;
+    margin-bottom:5px;
+  background-color: green;  
+  padding: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  border-radius:50%;
+  font-size: medium;
+  top: 50%;
+}

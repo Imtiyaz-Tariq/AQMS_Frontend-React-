@@ -1,0 +1,28 @@
+.header {
+  margin-top: 50px;
+  border-radius: 10px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  max-width: 60rem;
+  width: 400px;
+  height: 50px;
+  margin: auto;
+  padding: 2px;
+  display: flex;
+  justify-content: center;
+  background-color: aqua;
+}
+
+.list {
+  display: flex;
+  gap: 2rem;
+}
+
+.list Link {
+  text-decoration: none;
+  color: var(--color-primary-400);
+}
+
+.list Link:hover,
+.list Link.active {
+  color: var(--color-primary-800);
+}
